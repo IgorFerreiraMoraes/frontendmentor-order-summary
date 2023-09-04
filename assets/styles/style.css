@@ -73,6 +73,7 @@ h1 {
 	margin-right: min(2.13vh, 19.17px);
 }
 .card-pricing h2 {
+	color: var(--dark-blue);
 	font-size: 1rem;
 	font-weight: 900;
 }
@@ -97,7 +98,7 @@ button.primary {
 	background-color: var(--bright-blue);
 	border: transparent;
 	color: var(--very-pale-blue);
-	font-weight: 700;
+	font-weight: 900;
 	width: 78.67%;
 	border-radius: 0.625rem;
 	box-shadow: 0px 1rem 1.5rem 0px #d1cbff;
@@ -152,6 +153,7 @@ button.secondary:hover {
 		margin-top: 4px;
 	}
 	.card-pricing a {
+		text-decoration: underline;
 		margin-left: auto;
 		font-size: 0.889rem;
 		font-weight: 700;
